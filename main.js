@@ -74,11 +74,16 @@ console.log(avg(69,666,777))
 // 6. Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
 
+function getLength(evil) {
+  console.log("This string is way to long for Bree's liking " + evil.length)
+}
+
+getLength("This string is way to long for Bree's liking")
 
 
-// 7. Write a function called `greaterThan` that takes two parameters
-// and returns `true` if the second parameter is greater than the first.
-// Otherwise the function should return `false`.
+
+
+// 7. Write a function called `greaterThan` that takes two parameters and returns `true` if the second parameter is greater than the first. Otherwise the function should return `false`.
 // Then, write and example of using the function.
 function greaterThan(first, second){
   if (first < second) {
@@ -90,10 +95,7 @@ function greaterThan(first, second){
 console.log(greaterThan(-1,99));
 
 
-// 8. Write a function called `greet` that takes a
-// single parameter and returns a string that
-// is formated like "Hello, Name!" where *Name*
-// is the parameter that was passed in.
+// 8. Write a function called `greet` that takes a single parameter and returns a string that is formated like "Hello, Name!" where *Name* is the parameter that was passed in.
 // Then, write and example of using the function.
 function greet (name) {
   console.log("Hello " + name)
@@ -107,6 +109,11 @@ greet("Bree")
 // The function should insert the words into a pre-defined sentence.
 // Finally the function should return that sentence.
 // Note: When I say words and sentence I mean strings. For example:
-// words: "quick", "fox", "fence"
-// sentence: "quick brown fox jumps over the fence"
+// words: "quick", "fox", "fence" sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+
+function madlib (word1, word2, word3, word4) {
+  console.log("This " + word1 + "is " + word2 + "not " + word3 + "logical " + word4 + "." )
+}
+
+madlib("cat ", "houston ", "chair ", "car ")
