@@ -95,6 +95,11 @@ console.log(greaterThan(-1,99));
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 // Then, write and example of using the function.
+function greet (name) {
+  console.log("Hello " + name)
+}
+
+greet("Bree")
 
 
 
