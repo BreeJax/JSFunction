@@ -73,7 +73,6 @@ console.log(avg(69,666,777))
 
 // 6. Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
-function getLength()
 
 
 
@@ -81,7 +80,14 @@ function getLength()
 // and returns `true` if the second parameter is greater than the first.
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
-
+function greaterThan(first, second){
+  if (first < second) {
+    return true
+  } else {
+    return false
+  }
+}
+console.log(greaterThan(-1,99));
 
 
 // 8. Write a function called `greet` that takes a
