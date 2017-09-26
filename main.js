@@ -13,6 +13,7 @@ function max(num1,num2) {
  console.log(max(5,9))
 
 
+
 // 2. Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // Then, write and example of using the function.
 
